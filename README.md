@@ -1,16 +1,22 @@
 ### Hi there 👋
 
-<!--
-**V3lop5/V3lop5** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3>
+  
+```kotlin
+package about.v3;
 
-Here are some ideas to get you started:
+class Paul : Male, Developer {
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  override val languages = listOf("Kotlin", "RPGLE", "CLLE", "SQL", "Java", "C++", "C#")
+  
+  override val databases = listOf("db2", "PostgreSQL")
+  
+}
+
+fun main() {
+  val me = Paul()
+  me.sayHi()
+}
+```
+
+</h3>
